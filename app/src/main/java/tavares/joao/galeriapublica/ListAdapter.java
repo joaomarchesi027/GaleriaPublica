@@ -46,4 +46,5 @@ public class ListAdapter extends PagingDataAdapter<ImageData, MyViewHolder> {
         ImageView imageView = holder.itemView.findViewById(R.id.imThumb);
         imageView.setImageBitmap(thumb);
     }
+
 }
